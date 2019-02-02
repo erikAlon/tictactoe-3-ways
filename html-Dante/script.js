@@ -10,12 +10,15 @@ function startG() {
     upL: [0, 3, 6],
     upM: [1, 3, 7],
     upR: [2, 5, 8],
+    rT: [0, 1, 2],
+    rM: [3, 4, 5],
+    rB: [6, 7, 8],
   };
   let winner;
   let plays = 0;
 
   // loop to keep game running
-  while (plays < 9 || !winner) {
+  while (plays < 8 || !winner) {
     // loop to check win condition
     Object.keys(wins).forEach((element) => {
       if (GAME[wins.element[0]] === GAME[wins.element[1] === GAME[wins.element[2]]]) {

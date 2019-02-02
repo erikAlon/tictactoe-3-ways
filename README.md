@@ -8,6 +8,6 @@
 
 - Document notes on varying nuances here and in a YouTube video
 
-- Create mobile friendly app using react-native and deploy game using a full stack development process
+- Create mobile friendly app using react-native and expo and deploy game using a full stack development process
 
 # Notes
