@@ -11,7 +11,7 @@ body {
 }
 
 td {
-  border-style: solid;
+  border-style: dotted;
   height: 100px;
   width: 100px;
 }
